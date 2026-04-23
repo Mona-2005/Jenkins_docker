@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/your-repo/sample-app.git'
+                git 'https://github.com/Mona-2005/Jenkins_docker.git'
             }
         }
         stage('Build Docker Image') {
